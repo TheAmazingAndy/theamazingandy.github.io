@@ -14,7 +14,7 @@ function animateRacer(playerId, reset) {
   }
   
 
-  if (pos < 1355) {
+  if (pos < 1350) {
     pos += randStep(3);
     elem.style.left = pos + 'px';
     setTimeout('animateRacer("' + playerId + '")', randStep(5));
