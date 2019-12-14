@@ -18,13 +18,13 @@ body {
 }
 
 #player1 {
-	background-image: url("car1.jpg");
-	background-color: red;
+	background-image: url("car1.png");
+	background-color: #57585a;
 	top: 20px;
 }
 #player2 {
-  background-color: blue;
-  background-image: url("car2.jpg");
+  background-color: #57585a;
+  background-image: url("car2.png");
   top: 40px;
 }
 
