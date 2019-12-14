@@ -1,0 +1,47 @@
+body {
+  overflow: hidden;
+}
+
+#container {
+  width: 1500px;
+  height: 160px;
+  position: relative;
+  background-color: gray;
+  background-image: url("road1.png");
+}
+
+.player {
+  width: 145px;
+  height: 50px;
+  background-color: gray;
+  position: relative;
+}
+
+#player1 {
+	background-image: url("car1.jpg");
+	background-color: red;
+	top: 20px;
+}
+#player2 {
+  background-color: blue;
+  background-image: url("car2.jpg");
+  top: 40px;
+}
+
+#banner{
+	display: block;
+	float: left;
+	text-align: center;
+	width: 100%;	
+	font-size: 2em;
+	text-shadow: 2px 2px gray;
+}
+#images{
+	position:absolute;
+	top:250px;
+}
+
+section{
+	
+	background-image: linear-gradient(rgb(167, 179, 190), white);
+}
