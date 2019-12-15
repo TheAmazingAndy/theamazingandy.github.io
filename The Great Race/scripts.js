@@ -27,3 +27,4 @@ function randStep(max) {
   var min = 1;
   return Math.floor(Math.random() * (max - min)) + min;
 }
+
